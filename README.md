@@ -74,7 +74,7 @@ LOG_LEVEL=INFO
 
 ### 5. Initialize Database
 ```bash
-python -c "from law_firm_booking import DatabaseManager; DatabaseManager().init_database()"
+python setup_database.py
 ```
 
 ## 📦 Dependencies
